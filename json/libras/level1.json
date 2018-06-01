@@ -1,0 +1,29 @@
+{
+	"questions": 
+	[
+		{
+			"prompt": "Que letra o gesto a seguir representa?", 
+			"answers": ["S", "A", "Z", "E"],
+			"answer_key": 0, 
+			"img_number": 1,
+			"imgs": ["../img/libras-cards/libras_19.png"]
+		},
+
+		{
+			"prompt": "Que letra o gesto a seguir representa?",
+			"answers": ["B", "E", "O", "Z"],
+			"answer_key": 2, 
+			"img_number": 1,
+			"imgs": ["../img/libras-cards/libras_15.png"]
+		},
+
+		{
+			"prompt": "O que as mãos abaixo estão soletrando?", 
+			"answers": ["L.O.L", "S.O.S", "A.F.K", "M.O.O"],
+			"answer_key": 1, 
+			"img_number": 3,
+			"imgs": ["../img/libras-cards/libras_19.png", "../img/libras-cards/libras_15.png", "../img/libras-cards/libras_19.png"]
+		}
+	],
+	"length": 3
+}

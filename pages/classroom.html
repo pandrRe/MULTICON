@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>MULTICON</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../main.js"></script>
+</head>
+
+<body onload="setupClass()">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+	<div class="navbar-header">
+	  <a class="navbar-brand nav-el" href="#" onclick="pageBack(); return false;"><span class="glyphicon glyphicon-menu-left"></span></a>
+	</div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center bg-buttons2">
+	<div class="container centered bg-levels">
+		<h3 id="pergunta" style="color:purple">Primeira pergunta:<br></h3>
+		<div class="flex-container">
+			<div class="text-right">
+				<img id="qstdisplay0" src=" " class="imgshow" style="display:none">
+			</div>
+			<div class="text-center">
+				<img id="qstdisplay1" src=" " class="imgshow">
+			</div>
+			<div class="text-left" style="display:none">
+				<img id="qstdisplay2" src=" " class="imgshow" style="display:none" >
+			</div>
+		</div>
+		<div id="btn-box">
+			<div class="row">
+				<div class="col-sm-6 text-right">
+					<a href="#"><button id="txt-1" class="btn-home3 levels" onclick="activeButton(1); return false;">Resposta</button></a>
+				</div>
+				<div class="col-sm-6 text-left">
+					<a href="#"><button id="txt-2" class="btn-home3 levels" onclick="activeButton(2); return false;">Resposta</button></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6 text-right">
+					<a href="#"><button id="txt-3" class="btn-home3 levels" onclick="activeButton(3); return false;">Resposta</button></a>
+				</div>
+				<div class="col-sm-6 text-left">
+					<a href="#"><button id="txt-4" class="btn-home3 levels" onclick="activeButton(4); return false;">Resposta</button></a>
+				</div>
+			</div>
+		</div>
+		<div class="text-right">
+			<button class="submitbtn levels" onclick="questionSubmit()"><span class="glyphicon glyphicon-ok"></span></button>
+		</div>
+	</div>
+</div>
+
+
+</body>
+
+</html>
