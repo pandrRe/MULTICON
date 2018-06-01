@@ -47,7 +47,7 @@ function setupClass() //Configura a aula ao entrar em classroom.html
 
 	//Construção do objeto pergunta/Question
 
-	var requestFile = "http://192.168.0.10:8080/json/" + pageCourse + "/level" + currentLevel + ".json";
+	var requestFile = "https://raw.githubusercontent.com/pandrRe/prototipo/master/json/" + pageCourse + "/level" + currentLevel + ".json";
 	var request = new XMLHttpRequest(); 
 	request.open("GET", requestFile);
 	request.responseType = "json";
